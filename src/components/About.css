@@ -1,0 +1,32 @@
+.flexcontainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#textbox {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-left: 10%;
+    font-size: larger;
+    line-height: 157%;
+}
+
+#aboutpic img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    height: 75%;
+    width: 75%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+#abouthead {
+    padding-bottom: 3%;
+}
+
+#abouthead {
+    padding-bottom: 3%;
+}

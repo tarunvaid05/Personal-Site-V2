@@ -1,0 +1,60 @@
+.projectcontainer {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding-left: 10%; 
+    padding-right: 10%;
+}
+
+.projects img {
+    height: auto;
+    display: flex;
+    height: 92%;
+    width: 92%;
+    padding-bottom: 6%;
+    padding-top: 6%;
+    margin-right: 5%;
+}
+
+.projectinfo {
+    padding: 20px;
+    box-sizing: border-box;
+    height: auto;
+    display: block;
+    width: 80%;
+    justify-content: center;
+}
+
+.projectinfo p {
+    font-size: 115%;
+    margin-bottom: 0%;
+    line-height: 150%;
+}
+
+.projectinfo a {
+    line-height: 200%;
+    color: white;
+    text-decoration: none;
+}
+
+.projectinfo a:hover {
+    color: #f9c899;
+}
+
+.projectinfo h5 {
+    font-size: 200%;
+    margin-bottom: 10px;
+    margin-top: 0%;
+}
+
+.logos-bar {
+    display: flex;
+    justify-content: left;
+    gap: 10px; 
+    margin-bottom: 10px; 
+}
+
+.logos-bar img {
+    width: 30px; 
+    height: auto;
+}

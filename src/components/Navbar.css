@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar a {
+    height: 33px;
+    align-content: center;
+}
+
+.navbar a, .navbar .imgbutton {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    flex-grow: 1;
+    transition: background-color 0.4s ease;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border: none;
+}
+
+.navbar .imgbutton {
+    border: none;
+    background: transparent;
+}
+
+.navbar .imgbutton:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.imgbutton img {
+    height: 28px; 
+    width: auto; 
+    align-items: center;
+}
